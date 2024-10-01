@@ -1,2 +1,4 @@
 src/__pycache__
 src/instance
+src/resources/data/current/*.txt
+src/resources/data/previous/*.txt
