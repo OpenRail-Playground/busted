@@ -1,4 +1,6 @@
-src/__pycache__
-src/instance
-src/resources/data/current/*.txt
-src/resources/data/previous/*.txt
+__pycache__
+app.log
+app/__pycache__
+instance/
+resources/data/current/
+resources/data/previous/

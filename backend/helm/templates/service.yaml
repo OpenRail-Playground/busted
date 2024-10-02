@@ -1,0 +1,14 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: '{{ .Values.product }}'
+spec:
+  ports:
+    - name: 5000-tcp
+      port: 5000
+      targetPort: 5000
+  selector:
+    app: '{{ .Values.product }}'
+    deploymentconfig: '{{ .Values.product }}'
+  sessionAffinity: None
+  type: ClusterIP
