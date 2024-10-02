@@ -8,10 +8,6 @@ spec:
     matchLabels:
       app: {{ .Values.product }}
       deploymentconfig: '{{ .Values.product }}'
-  strategy:
-    type: RollingUpdate
-      maxSurge: 25%
-      maxUnavailable: 25%
   template:
     metadata:
       labels:
@@ -26,11 +22,11 @@ spec:
         - containerPort: 5000
         resources:
           requests:
-              cpu: '{{ .Values.cpuMin }}'
-              memory: '{{ .Values.memoryMin }}'
-            limits:
-              cpu: '{{ .Values.cpuMax }}'
-              memory: '{{ .Values.memoryMax }}'
+            cpu: '{{ .Values.cpuMin }}'
+            memory: '{{ .Values.memoryMin }}'
+          limits:
+            cpu: '{{ .Values.cpuMax }}'
+            memory: '{{ .Values.memoryMax }}'
       dnsPolicy: ClusterFirst
       restartPolicy: Always
       terminationGracePeriodSeconds: 30

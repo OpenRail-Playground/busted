@@ -1,5 +1,4 @@
-import logging
-import os
+import logging, os, sys
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
@@ -17,7 +16,7 @@ def create_app(test_config=None):
 
     # Set up logging
     logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s: %(message)s', handlers=[
-        logging.FileHandler("app.log"),
+        #logging.FileHandler("app.log"),
         logging.StreamHandler()
     ])
 
