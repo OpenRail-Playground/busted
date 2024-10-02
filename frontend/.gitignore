@@ -118,3 +118,10 @@ app.*.symbols
 !**/ios/**/default.perspectivev3
 !/dev/ci/**/Gemfile.lock
 !**/.vscode/launch.json
+
+# Auto-generated Dart files (e.g., from build_runner or auto_route)
+**/*.g.dart
+**/*.gr.dart
+**/*.freezed.dart
+**/*.injectable.dart
+**/*.mocks.dart
