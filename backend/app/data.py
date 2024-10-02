@@ -1,11 +1,13 @@
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime, timedelta
+from sqlalchemy import text
+#from app import db
+
+db = SQLAlchemy()
 
 PREVIOUS = "previous_"
 CURRENT = "current_"
 TRANSFER_TIME = 29
-
-db = SQLAlchemy()
 
 class Data():
     
@@ -24,18 +26,17 @@ class Data():
         return agencies_list
     
     def get_transfers_for_stop(self, stop_id, table_prefix=CURRENT):
-        
         # Use LIKE to match stop_id with potential suffixes
         stop_id_like = f"{stop_id}%"
         
-        query = f'''
+        query = text(f'''
         SELECT 
             from_stop_id AS original_stop_id,
             to_stop_id AS transfer_stop_id,
             min_transfer_time
         FROM {table_prefix}transfers
         WHERE from_stop_id LIKE ?
-        '''
+        ''')
         
         results = db.session.execute(query, (stop_id_like,)).fetchall()
                 
@@ -66,7 +67,7 @@ class Data():
     # the actual function, but it's too slow for demo and needs optimizations
     def get_stop_times(self, stop_id, date, start_time, end_time, time_column, table_prefix=CURRENT):
         weekday_column = self.get_day_of_week_column(date)
-        query = f'''
+        query = text(f'''
         SELECT 
             st.trip_id as trip_id, 
             st.arrival_time as arrival_time, 
@@ -87,13 +88,13 @@ class Data():
         AND c.end_date >= ?
         AND (pcd.exception_type IS NULL OR pcd.exception_type = 1)
         ORDER BY st.{time_column}
-        '''
+        ''')
         results = db.session.execute(query, (date, stop_id, start_time, end_time, date, date)).fetchall()
         return [dict(row) for row in results]
     
     # a mocked version of the function, that trivialises by filtering by short_name
     def mocked_get_stop_times(self, stop_id, date, start_time, end_time, time_column, table_prefix=CURRENT):       
-        query = f'''
+        query = text(f'''
         SELECT 
             st.trip_id as trip_id, 
             st.arrival_time as arrival_time, 
@@ -108,7 +109,7 @@ class Data():
         WHERE st.stop_id_prefix = ?
         AND st.{time_column} BETWEEN ? AND ?
         ORDER BY st.{time_column}
-        '''
+        ''')
         
         results = db.session.execute(query, (stop_id, start_time, end_time)).fetchall()
         

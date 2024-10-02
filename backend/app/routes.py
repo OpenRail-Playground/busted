@@ -1,6 +1,8 @@
 import datetime
 from flask import (current_app as app, Flask, render_template, jsonify, request)
-from app import data
+from app.data import Data
+
+data = Data()
 
 @app.route('/')
 def index():

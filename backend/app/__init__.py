@@ -25,7 +25,7 @@ def create_app(test_config=None):
         os.makedirs(app.instance_path)
     except OSError:
         pass
-
+    #db = SQLAlchemy(app)
     db.init_app(app)
     #migrate = Migrate(app, db)
 
@@ -33,7 +33,7 @@ def create_app(test_config=None):
         from . import routes
         from app.models import CurrentAgency, PreviousAgency, CurrentRoutes, PreviousRoutes, CurrentStops, PreviousStops, CurrentTrips, PreviousTrips, CurrentStopTimes, PreviousStopTimes, CurrentCalendar, PreviousCalendar, CurrentCalendarDates, PreviousCalendarDates, CurrentTransfers, PreviousTransfers
         # Initialize the database
-        from .db_utils import init_db, extend_db
-        init_db()
-        extend_db()
+        #from .db_utils import init_db, extend_db
+        #init_db()
+        #extend_db()
     return app
