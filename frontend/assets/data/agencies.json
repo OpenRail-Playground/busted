@@ -1,0 +1,1794 @@
+[
+    {
+        "agency_name": "AFA Bus AG",
+        "id": "813"
+    },
+    {
+        "agency_name": "Aare Seeland mobil (bti)",
+        "id": "38"
+    },
+    {
+        "agency_name": "Aargau Verkehr AG",
+        "id": "96"
+    },
+    {
+        "agency_name": "Adliswil-Felsenegg",
+        "id": "204"
+    },
+    {
+        "agency_name": "Aelplibahn Malans Genossenschaft",
+        "id": "3140"
+    },
+    {
+        "agency_name": "Aletsch Bahnen AG",
+        "id": "262"
+    },
+    {
+        "agency_name": "Aletsch-Express Riederalp-Bettmeralp",
+        "id": "3002"
+    },
+    {
+        "agency_name": "Alpbus Fournier",
+        "id": "611"
+    },
+    {
+        "agency_name": "Alpintrans GmbH",
+        "id": "617"
+    },
+    {
+        "agency_name": "Andermatt-Sedrun Sport AG",
+        "id": "251"
+    },
+    {
+        "agency_name": "Andermatt-Urserntal Tourismus GmbH",
+        "id": "7069"
+    },
+    {
+        "agency_name": "Anrufsammeltaxi Amriswil",
+        "id": "7012"
+    },
+    {
+        "agency_name": "Anrufsammeltaxi Bischofszell",
+        "id": "7011"
+    },
+    {
+        "agency_name": "Appenzeller Bahnen (ab)",
+        "id": "22"
+    },
+    {
+        "agency_name": "Appenzeller Bahnen Ersatzverkehr",
+        "id": "7252"
+    },
+    {
+        "agency_name": "Arosa Bergbahnen",
+        "id": "219"
+    },
+    {
+        "agency_name": "Aroser Verkehrsbetriebe",
+        "id": "7031"
+    },
+    {
+        "agency_name": "Association neuchâteloise des Amis du Tramway ANAT",
+        "id": "3271"
+    },
+    {
+        "agency_name": "Aufzug Matte-Plattform (Bern)",
+        "id": "118"
+    },
+    {
+        "agency_name": "Auto AG Rothenburg",
+        "id": "812"
+    },
+    {
+        "agency_name": "Auto AG Schwyz",
+        "id": "841"
+    },
+    {
+        "agency_name": "Auto AG Uri",
+        "id": "816"
+    },
+    {
+        "agency_name": "Auto Leuk-Leukerbad",
+        "id": "855"
+    },
+    {
+        "agency_name": "Autobetrieb Sernftal",
+        "id": "856"
+    },
+    {
+        "agency_name": "Autobetrieb Weesen-Amden",
+        "id": "832"
+    },
+    {
+        "agency_name": "Autobus AG Liestal",
+        "id": "811"
+    },
+    {
+        "agency_name": "Autobusbetrieb Freienbach",
+        "id": "755"
+    },
+    {
+        "agency_name": "Autobusbetrieb LEE",
+        "id": "7038"
+    },
+    {
+        "agency_name": "Autobusbetrieb RBS",
+        "id": "850"
+    },
+    {
+        "agency_name": "Autolinea Mendrisiense SA",
+        "id": "736"
+    },
+    {
+        "agency_name": "Autolinee Bleniesi",
+        "id": "862"
+    },
+    {
+        "agency_name": "Autolinee FART",
+        "id": "817"
+    },
+    {
+        "agency_name": "Autolinee Regionali Luganesi",
+        "id": "858"
+    },
+    {
+        "agency_name": "Automobil Rottal AG",
+        "id": "819"
+    },
+    {
+        "agency_name": "Automobildienst Appenzeller Bahnen",
+        "id": "744"
+    },
+    {
+        "agency_name": "Automobildienst Matterhorn Gotthard Bahn (fo auto)",
+        "id": "851"
+    },
+    {
+        "agency_name": "Automobildienst SZU",
+        "id": "807"
+    },
+    {
+        "agency_name": "Automobildienste Aare Seeland mobil",
+        "id": "870"
+    },
+    {
+        "agency_name": "Automobiles CJ",
+        "id": "833"
+    },
+    {
+        "agency_name": "Automobiles MBC",
+        "id": "764"
+    },
+    {
+        "agency_name": "Autoservizi Silvestri Livigno",
+        "id": "712"
+    },
+    {
+        "agency_name": "Autotransports de la Vallée de Joux",
+        "id": "731"
+    },
+    {
+        "agency_name": "BLS AG (bls)",
+        "id": "33"
+    },
+    {
+        "agency_name": "BLS Netz AG Ersatzverkehr",
+        "id": "7230"
+    },
+    {
+        "agency_name": "BLS Schifffahrt AG (brs)",
+        "id": "183"
+    },
+    {
+        "agency_name": "BLS Schifffahrt AG (ths)",
+        "id": "192"
+    },
+    {
+        "agency_name": "BUS Oberthurgau AG",
+        "id": "843"
+    },
+    {
+        "agency_name": "Bahnersatz Jahresfahrplan",
+        "id": "7037"
+    },
+    {
+        "agency_name": "Bamert Bus",
+        "id": "777"
+    },
+    {
+        "agency_name": "Baselland Transport",
+        "id": "37"
+    },
+    {
+        "agency_name": "Basler Personenschifffahrt AG",
+        "id": "191"
+    },
+    {
+        "agency_name": "Basler Verkehrsbetriebe",
+        "id": "823"
+    },
+    {
+        "agency_name": "Bergbahnen Adelboden AG",
+        "id": "603"
+    },
+    {
+        "agency_name": "Bergbahnen Adelboden AG",
+        "id": "602"
+    },
+    {
+        "agency_name": "Bergbahnen Adelboden-Lenk AG",
+        "id": "800"
+    },
+    {
+        "agency_name": "Bergbahnen Beckenried-Emmetten",
+        "id": "205"
+    },
+    {
+        "agency_name": "Bergbahnen Destination Gstaad AG",
+        "id": "225"
+    },
+    {
+        "agency_name": "Bergbahnen Disentis",
+        "id": "329"
+    },
+    {
+        "agency_name": "Bergbahnen Engadin St. Moritz AG",
+        "id": "147"
+    },
+    {
+        "agency_name": "Bergbahnen Engadin St. Moritz, Bernina-Diavolezza (lbd)",
+        "id": "218"
+    },
+    {
+        "agency_name": "Bergbahnen Engstligenalp AG",
+        "id": "282"
+    },
+    {
+        "agency_name": "Bergbahnen Flumserberg AG",
+        "id": "288"
+    },
+    {
+        "agency_name": "Bergbahnen Flumserberg AG",
+        "id": "265"
+    },
+    {
+        "agency_name": "Bergbahnen Hoch-Ybrig AG",
+        "id": "334"
+    },
+    {
+        "agency_name": "Bergbahnen Hoch-Ybrig AG",
+        "id": "3106"
+    },
+    {
+        "agency_name": "Bergbahnen Hoch-Ybrig AG",
+        "id": "303"
+    },
+    {
+        "agency_name": "Bergbahnen Hohsaas AG",
+        "id": "315"
+    },
+    {
+        "agency_name": "Bergbahnen Malbun AG",
+        "id": "3133"
+    },
+    {
+        "agency_name": "Bergbahnen Meiringen-Hasliberg",
+        "id": "307"
+    },
+    {
+        "agency_name": "Bergbahnen Obersaxen AG",
+        "id": "3146"
+    },
+    {
+        "agency_name": "Bergbahnen Piz Mundaun AG",
+        "id": "3152"
+    },
+    {
+        "agency_name": "Bergbahnen Piz Mundaun AG",
+        "id": "3148"
+    },
+    {
+        "agency_name": "Bergbahnen Samnaun AG",
+        "id": "3161"
+    },
+    {
+        "agency_name": "Bergbahnen Sörenberg AG",
+        "id": "283"
+    },
+    {
+        "agency_name": "Bergbahnen Sörenberg AG - fikt",
+        "id": "343"
+    },
+    {
+        "agency_name": "Bergbahnen Wildhaus AG",
+        "id": "257"
+    },
+    {
+        "agency_name": "Bergün Filisur Tourismus AG",
+        "id": "336"
+    },
+    {
+        "agency_name": "Berner Oberland-Bahnen",
+        "id": "35"
+    },
+    {
+        "agency_name": "Berner Oberland-Bahnen",
+        "id": "140"
+    },
+    {
+        "agency_name": "Biel-Kinzig AG",
+        "id": "3110"
+    },
+    {
+        "agency_name": "Bielersee",
+        "id": "182"
+    },
+    {
+        "agency_name": "Blatten-Belalp",
+        "id": "274"
+    },
+    {
+        "agency_name": "Bodensee-Schiffsbetriebe GmbH",
+        "id": "360"
+    },
+    {
+        "agency_name": "Braunwald-Standseilbahn",
+        "id": "105"
+    },
+    {
+        "agency_name": "Brienz Rothorn Bahn AG",
+        "id": "104"
+    },
+    {
+        "agency_name": "Brunni-Bahnen Engelberg AG",
+        "id": "203"
+    },
+    {
+        "agency_name": "Brusino-Arsizio-Serpiano",
+        "id": "296"
+    },
+    {
+        "agency_name": "Bus Nyon-Prangins",
+        "id": "741"
+    },
+    {
+        "agency_name": "Bus Ostschweiz (Rheintal)",
+        "id": "138"
+    },
+    {
+        "agency_name": "Bus Ostschweiz (Wil)",
+        "id": "826"
+    },
+    {
+        "agency_name": "Bus Sierrois",
+        "id": "714"
+    },
+    {
+        "agency_name": "Bus alpin Lombachalp",
+        "id": "7080"
+    },
+    {
+        "agency_name": "Bus commune Sion",
+        "id": "765"
+    },
+    {
+        "agency_name": "Bus de la commune de Riddes",
+        "id": "7065"
+    },
+    {
+        "agency_name": "Bus und Service AG (Chur)",
+        "id": "766"
+    },
+    {
+        "agency_name": "Bus und Service AG (Engadin)",
+        "id": "815"
+    },
+    {
+        "agency_name": "Bus urbain de Martigny",
+        "id": "713"
+    },
+    {
+        "agency_name": "Busbetrieb Aarau",
+        "id": "840"
+    },
+    {
+        "agency_name": "Busbetrieb BOB",
+        "id": "822"
+    },
+    {
+        "agency_name": "Busbetrieb Gemeinde Bergün",
+        "id": "7078"
+    },
+    {
+        "agency_name": "Busbetrieb Grenchen und Umgebung",
+        "id": "894"
+    },
+    {
+        "agency_name": "Busbetrieb Kandersteg - Gasterntal",
+        "id": "7025"
+    },
+    {
+        "agency_name": "Busbetrieb Lichtensteig-Wattwil-Ebnat-Kappel",
+        "id": "810"
+    },
+    {
+        "agency_name": "Busbetrieb Oberems-Gruben",
+        "id": "7067"
+    },
+    {
+        "agency_name": "Busbetrieb Olten-Gösgen-Gäu",
+        "id": "793"
+    },
+    {
+        "agency_name": "Busbetrieb Rapperswil-Eschenbach-Rüti ZH",
+        "id": "772"
+    },
+    {
+        "agency_name": "Busbetrieb Solothurn und Umgebung",
+        "id": "883"
+    },
+    {
+        "agency_name": "Busland AG",
+        "id": "871"
+    },
+    {
+        "agency_name": "But",
+        "id": "87_BUT"
+    },
+    {
+        "agency_name": "Bürgenstock Bahn AG",
+        "id": "107"
+    },
+    {
+        "agency_name": "Bürgerbus Gondiswil-Huttwil-Ufhusen",
+        "id": "7045"
+    },
+    {
+        "agency_name": "Bürgerbus Hellsau-Höchstetten-Willadingen-Koppigen",
+        "id": "711"
+    },
+    {
+        "agency_name": "Bürgerbus Kleindietwil-Oeschenbach-Walterswil",
+        "id": "7046"
+    },
+    {
+        "agency_name": "Bürgerbus Rüderswil",
+        "id": "7087"
+    },
+    {
+        "agency_name": "Bürgerbus Walperswil-Epsach-Täuffelen-Aarberg",
+        "id": "710"
+    },
+    {
+        "agency_name": "CGN SA",
+        "id": "184"
+    },
+    {
+        "agency_name": "Cantone di Grigioni",
+        "id": "3119"
+    },
+    {
+        "agency_name": "Cardada Impianti Turistici",
+        "id": "286"
+    },
+    {
+        "agency_name": "Cars Rhône-Alpes",
+        "id": "87_CAR"
+    },
+    {
+        "agency_name": "Celeriner Bergbahnen - Punt Muragl-Muottas Muragl",
+        "id": "133"
+    },
+    {
+        "agency_name": "Centre Touristique Moléson",
+        "id": "3009"
+    },
+    {
+        "agency_name": "Chalais-Briey-Vercorin",
+        "id": "212"
+    },
+    {
+        "agency_name": "Chemins de fer du Jura",
+        "id": "43"
+    },
+    {
+        "agency_name": "Chur-Dreibündenstein",
+        "id": "236"
+    },
+    {
+        "agency_name": "Commune d'Anniviers Vissoie",
+        "id": "7004"
+    },
+    {
+        "agency_name": "Comune di Personico",
+        "id": "609"
+    },
+    {
+        "agency_name": "Curtinatsch-Piz Lagalb",
+        "id": "247"
+    },
+    {
+        "agency_name": "DB Regio AG Baden-Württemberg",
+        "id": "800693"
+    },
+    {
+        "agency_name": "DB Regio AG Baden-Württemberg",
+        "id": "06____"
+    },
+    {
+        "agency_name": "Dallenwil-Niederrickenbach",
+        "id": "250"
+    },
+    {
+        "agency_name": "Dallenwil-Wirzweli",
+        "id": "254"
+    },
+    {
+        "agency_name": "Dampfbahn Furka-Bergstrecke",
+        "id": "160"
+    },
+    {
+        "agency_name": "Dampfbahn-Verein Zürcher Oberland",
+        "id": "908"
+    },
+    {
+        "agency_name": "Davos Klosters Bergbahnen (bbbj)",
+        "id": "207"
+    },
+    {
+        "agency_name": "Davos Klosters Bergbahnen (dpb)",
+        "id": "109"
+    },
+    {
+        "agency_name": "DistriBus",
+        "id": "87_DIB"
+    },
+    {
+        "agency_name": "Diverse INFO",
+        "id": "9999"
+    },
+    {
+        "agency_name": "Dolderbahn Betriebs AG",
+        "id": "164"
+    },
+    {
+        "agency_name": "Drahtseilbahn Marzili-Stadt Bern AG",
+        "id": "119"
+    },
+    {
+        "agency_name": "Elektrobus Zermatt",
+        "id": "708"
+    },
+    {
+        "agency_name": "Elsigenalpbahnen AG Frutigen, Luftseilbahn und Skilifte",
+        "id": "614"
+    },
+    {
+        "agency_name": "Engadin St. Moritz Mountains AG",
+        "id": "238"
+    },
+    {
+        "agency_name": "Engelberg-Trübsee-Titlis",
+        "id": "114"
+    },
+    {
+        "agency_name": "Engelberger Auto-Betriebe",
+        "id": "7058"
+    },
+    {
+        "agency_name": "Erlenbach-Stockhorn",
+        "id": "264"
+    },
+    {
+        "agency_name": "Ernst Mändli AG Nohl",
+        "id": "3185"
+    },
+    {
+        "agency_name": "Evian",
+        "id": "87_EVA"
+    },
+    {
+        "agency_name": "FPLAN BOD RAB OMP",
+        "id": "80_BOD"
+    },
+    {
+        "agency_name": "FPLAN RBG SWG",
+        "id": "80_RVL"
+    },
+    {
+        "agency_name": "FPLAN VHB SBP",
+        "id": "80_VHB"
+    },
+    {
+        "agency_name": "Ferrovia Monte Generoso",
+        "id": "129"
+    },
+    {
+        "agency_name": "Ferrovie Autolinee Regionali Ticinesi",
+        "id": "49"
+    },
+    {
+        "agency_name": "Forchbahn",
+        "id": "46"
+    },
+    {
+        "agency_name": "Funicar AG",
+        "id": "7055"
+    },
+    {
+        "agency_name": "Funicolare Ritom SA",
+        "id": "117"
+    },
+    {
+        "agency_name": "Funiculaire Neuchâtel-Université - Neuchâtel-Gare",
+        "id": "166"
+    },
+    {
+        "agency_name": "Funiculaire Saint-Imier-Mont-Soleil SA",
+        "id": "143"
+    },
+    {
+        "agency_name": "Funiculaire St-Luc-Chandolin",
+        "id": "258"
+    },
+    {
+        "agency_name": "Funiva San Carlo-Robiei",
+        "id": "3123"
+    },
+    {
+        "agency_name": "Funivia Monte Lema SA",
+        "id": "210"
+    },
+    {
+        "agency_name": "Funivia Selma-Landarenca",
+        "id": "3120"
+    },
+    {
+        "agency_name": "Fähre Beckenried-Gersau",
+        "id": "3190"
+    },
+    {
+        "agency_name": "Förderverein Region Gantrisch",
+        "id": "7049"
+    },
+    {
+        "agency_name": "Fürgangen-Bellwald",
+        "id": "263"
+    },
+    {
+        "agency_name": "Gampel-Jeizinen",
+        "id": "244"
+    },
+    {
+        "agency_name": "Gemeinde Celerina/Schlarigna",
+        "id": "9028"
+    },
+    {
+        "agency_name": "Gemeinde Grüsch",
+        "id": "3142"
+    },
+    {
+        "agency_name": "Gemeinde Luzein",
+        "id": "7094"
+    },
+    {
+        "agency_name": "Gemeinde St. Gallenkappel",
+        "id": "7017"
+    },
+    {
+        "agency_name": "Gemeinde Surses - Cumegn Surses",
+        "id": "7052"
+    },
+    {
+        "agency_name": "Genossenschaft Luftseilbahn Morgenholz",
+        "id": "3136"
+    },
+    {
+        "agency_name": "Genossenschaft Luftseilbahn Sulwald",
+        "id": "3085"
+    },
+    {
+        "agency_name": "Genossenschaft Tschinglenbahn Elm",
+        "id": "3101"
+    },
+    {
+        "agency_name": "Glaris-Rinerhorn",
+        "id": "293"
+    },
+    {
+        "agency_name": "Gondelbahn Grindelwald-Männlichen AG",
+        "id": "312"
+    },
+    {
+        "agency_name": "Gondelbahn Kandersteg-Oeschinensee",
+        "id": "323"
+    },
+    {
+        "agency_name": "Gornergratbahn",
+        "id": "121"
+    },
+    {
+        "agency_name": "Grindelwald-First",
+        "id": "201"
+    },
+    {
+        "agency_name": "Grindelwald-Pfingstegg",
+        "id": "272"
+    },
+    {
+        "agency_name": "Gstaad 3000 AG",
+        "id": "261"
+    },
+    {
+        "agency_name": "Gurtenbahn",
+        "id": "122"
+    },
+    {
+        "agency_name": "Hallwilersee",
+        "id": "181"
+    },
+    {
+        "agency_name": "Harderbahn",
+        "id": "123"
+    },
+    {
+        "agency_name": "Heuberge AG",
+        "id": "959"
+    },
+    {
+        "agency_name": "Hoher Kasten Drehrestaurant und Seilbahn AG",
+        "id": "253"
+    },
+    {
+        "agency_name": "Holzegg Liegenschaften AG",
+        "id": "3105"
+    },
+    {
+        "agency_name": "Impianti turistici Rivera-Monte Tamaro",
+        "id": "348"
+    },
+    {
+        "agency_name": "Interimsfahrplan / Horaire interimaire / Orario ad interim",
+        "id": "7000"
+    },
+    {
+        "agency_name": "Interlaken-Heimwehfluh",
+        "id": "159"
+    },
+    {
+        "agency_name": "Jakobsbad-Kronberg",
+        "id": "255"
+    },
+    {
+        "agency_name": "Jungfraubahn",
+        "id": "124"
+    },
+    {
+        "agency_name": "Kaisereggbahnen Schwarzsee AG",
+        "id": "3005"
+    },
+    {
+        "agency_name": "Klosters-Madrisa Bergbahn",
+        "id": "309"
+    },
+    {
+        "agency_name": "Kraftwerk Sanetsch AG",
+        "id": "3121"
+    },
+    {
+        "agency_name": "Kriens-Fräkmüntegg",
+        "id": "13600"
+    },
+    {
+        "agency_name": "Kriens-Sonnenberg-Bahn",
+        "id": "3090"
+    },
+    {
+        "agency_name": "Küssnacht am Rigi-Seebodenalp",
+        "id": "281"
+    },
+    {
+        "agency_name": "LTB Lungern-Turren-Bahn AG",
+        "id": "349"
+    },
+    {
+        "agency_name": "La Punt Ferien",
+        "id": "3257"
+    },
+    {
+        "agency_name": "Lacs de Neuchâtel et Morat",
+        "id": "189"
+    },
+    {
+        "agency_name": "Lago di Lugano",
+        "id": "188"
+    },
+    {
+        "agency_name": "Lauchernalp Bergbahnen AG",
+        "id": "306"
+    },
+    {
+        "agency_name": "Lausanne-Echallens-Bercher",
+        "id": "55"
+    },
+    {
+        "agency_name": "Lauterbrunnen-Mürren",
+        "id": "32"
+    },
+    {
+        "agency_name": "Lenk Bergbahnen",
+        "id": "298"
+    },
+    {
+        "agency_name": "Lenzerheide Bergbahnen",
+        "id": "252"
+    },
+    {
+        "agency_name": "Leukerbad-Gemmipass",
+        "id": "229"
+    },
+    {
+        "agency_name": "Luftseilbahn Amsteg-Arni",
+        "id": "3188"
+    },
+    {
+        "agency_name": "Luftseilbahn Attinghausen-Brüsti AG",
+        "id": "3108"
+    },
+    {
+        "agency_name": "Luftseilbahn Engelberg-Fürenalp",
+        "id": "3092"
+    },
+    {
+        "agency_name": "Luftseilbahn Fell-Chrüzhütte",
+        "id": "3093"
+    },
+    {
+        "agency_name": "Luftseilbahn Fellboden-Bannalpsee",
+        "id": "3094"
+    },
+    {
+        "agency_name": "Luftseilbahn Flüelen-Eggbergen",
+        "id": "3109"
+    },
+    {
+        "agency_name": "Luftseilbahn Illgau - Vorder Oberberg",
+        "id": "3165"
+    },
+    {
+        "agency_name": "Luftseilbahn Kalpetran-Embd",
+        "id": "310"
+    },
+    {
+        "agency_name": "Luftseilbahn Kandersteg-Allmenalp",
+        "id": "346"
+    },
+    {
+        "agency_name": "Luftseilbahn Kandersteg-Sunnbüel (Gemmi) AG",
+        "id": "228"
+    },
+    {
+        "agency_name": "Luftseilbahn Kies-Mettmen",
+        "id": "3137"
+    },
+    {
+        "agency_name": "Luftseilbahn Kräbel-Rigi Scheidegg AG",
+        "id": "313"
+    },
+    {
+        "agency_name": "Luftseilbahn Matt-Weissenberg",
+        "id": "3138"
+    },
+    {
+        "agency_name": "Luftseilbahn Mürren-Schilthorn",
+        "id": "268"
+    },
+    {
+        "agency_name": "Luftseilbahn Niederbauen",
+        "id": "3099"
+    },
+    {
+        "agency_name": "Luftseilbahn Obergschwend-Rigi-Burggeist AG",
+        "id": "226"
+    },
+    {
+        "agency_name": "Luftseilbahn Schattdorf-Haldi",
+        "id": "270"
+    },
+    {
+        "agency_name": "Luftseilbahn Unterterzen-Flumserberg AG",
+        "id": "214"
+    },
+    {
+        "agency_name": "Luftseilbahngenossenschaft Arnisee",
+        "id": "3115"
+    },
+    {
+        "agency_name": "Luftseilbahngenossenschaft Brügg-Eierschwand-Ruogig",
+        "id": "3036"
+    },
+    {
+        "agency_name": "Luftseilbahngenossenschaft Gitschenen",
+        "id": "3012"
+    },
+    {
+        "agency_name": "Lugano-Monte San Salvatore",
+        "id": "134"
+    },
+    {
+        "agency_name": "Lugano-Ponte Tresa",
+        "id": "47"
+    },
+    {
+        "agency_name": "MS Seestern + Gastro AG",
+        "id": "3199"
+    },
+    {
+        "agency_name": "Marbach-Marbachegg",
+        "id": "273"
+    },
+    {
+        "agency_name": "Matterhorn Gotthard Bahn (bvz)",
+        "id": "93"
+    },
+    {
+        "agency_name": "Matterhorn Gotthard Bahn (fo)",
+        "id": "48"
+    },
+    {
+        "agency_name": "Montreux-Oberland Bernois",
+        "id": "64"
+    },
+    {
+        "agency_name": "Montreux-Oberland Bernois Ersatzverkehr",
+        "id": "7040"
+    },
+    {
+        "agency_name": "Montreux-Vevey-Riviera (cev)",
+        "id": "42"
+    },
+    {
+        "agency_name": "Montreux-Vevey-Riviera (las)",
+        "id": "125"
+    },
+    {
+        "agency_name": "Montreux-Vevey-Riviera (mtgn)",
+        "id": "131"
+    },
+    {
+        "agency_name": "Montreux-Vevey-Riviera (vcp)",
+        "id": "155"
+    },
+    {
+        "agency_name": "Mouettes genevoises SA",
+        "id": "199"
+    },
+    {
+        "agency_name": "Mühleggbahn AG",
+        "id": "709"
+    },
+    {
+        "agency_name": "NA_85000",
+        "id": "85000"
+    },
+    {
+        "agency_name": "Navigation Lac de Joux",
+        "id": "3181"
+    },
+    {
+        "agency_name": "Navigation Lac des Brenets",
+        "id": "198"
+    },
+    {
+        "agency_name": "NeTS Planung ÖBB",
+        "id": "817000"
+    },
+    {
+        "agency_name": "Niederhornbahn AG",
+        "id": "239"
+    },
+    {
+        "agency_name": "Niederhornbahn AG",
+        "id": "149"
+    },
+    {
+        "agency_name": "Niesenbahn",
+        "id": "135"
+    },
+    {
+        "agency_name": "Nyon-St-Cergue-Morez",
+        "id": "66"
+    },
+    {
+        "agency_name": "Office du tourisme de Leysin",
+        "id": "7062"
+    },
+    {
+        "agency_name": "Ortsbus Saas-Fee",
+        "id": "7061"
+    },
+    {
+        "agency_name": "Ortsbus St. Moritz",
+        "id": "716"
+    },
+    {
+        "agency_name": "Ortsbus der Gemeinde Silvaplana / Gemeinde Silvaplana",
+        "id": "7085"
+    },
+    {
+        "agency_name": "PRO REGIO HUTTWIL Verkehrsverein",
+        "id": "7079"
+    },
+    {
+        "agency_name": "Parc d'Attractions du Châtelard",
+        "id": "115"
+    },
+    {
+        "agency_name": "Parkhotel Giessbach AG",
+        "id": "120"
+    },
+    {
+        "agency_name": "Pendicularas Scuol SA",
+        "id": "223"
+    },
+    {
+        "agency_name": "Pilatusbahnen",
+        "id": "136"
+    },
+    {
+        "agency_name": "Pizolbahnen AG",
+        "id": "287"
+    },
+    {
+        "agency_name": "Poly-Bahn Zürich",
+        "id": "165"
+    },
+    {
+        "agency_name": "Pontresina-Alp Languard",
+        "id": "267"
+    },
+    {
+        "agency_name": "Portes du Soleil Suisse SA",
+        "id": "217"
+    },
+    {
+        "agency_name": "PostAuto AG",
+        "id": "801"
+    },
+    {
+        "agency_name": "Pradaschier AG Top",
+        "id": "342"
+    },
+    {
+        "agency_name": "Proxim iTi",
+        "id": "87_PRO"
+    },
+    {
+        "agency_name": "Raron-Eischoll",
+        "id": "332"
+    },
+    {
+        "agency_name": "Raron-Unterbäch",
+        "id": "211"
+    },
+    {
+        "agency_name": "Regiobus Gossau SG",
+        "id": "896"
+    },
+    {
+        "agency_name": "RegionAlps Bus",
+        "id": "814"
+    },
+    {
+        "agency_name": "Regionalbus Lenzburg",
+        "id": "873"
+    },
+    {
+        "agency_name": "Regionale Verkehrsbetriebe Baden-Wettingen",
+        "id": "886"
+    },
+    {
+        "agency_name": "Regionalps",
+        "id": "74"
+    },
+    {
+        "agency_name": "Regionalverkehr Bern-Solothurn",
+        "id": "88"
+    },
+    {
+        "agency_name": "Regionalverkehr Bern-Solothurn Ersatzverkehr",
+        "id": "7246"
+    },
+    {
+        "agency_name": "Reichenbachfall-Bahn",
+        "id": "3087"
+    },
+    {
+        "agency_name": "Reigoldswil-Wasserfallen",
+        "id": "237"
+    },
+    {
+        "agency_name": "Remontées Méc. du Wildhorn Anzère",
+        "id": "294"
+    },
+    {
+        "agency_name": "Remontées Mécaniques Crans-Montana-Aminona",
+        "id": "245"
+    },
+    {
+        "agency_name": "Remontées Mécaniques Grimentz-Zinal SA",
+        "id": "337"
+    },
+    {
+        "agency_name": "Remontées mécaniques SA",
+        "id": "3028"
+    },
+    {
+        "agency_name": "Rhätische Bahn",
+        "id": "72"
+    },
+    {
+        "agency_name": "Rhäzüns-Feldis/Veulden",
+        "id": "232"
+    },
+    {
+        "agency_name": "Riddes-Isérables",
+        "id": "227"
+    },
+    {
+        "agency_name": "Riffelalp Resort AG Zermatt",
+        "id": "7005"
+    },
+    {
+        "agency_name": "Rigi Bahnen AG",
+        "id": "137"
+    },
+    {
+        "agency_name": "Rosswald Bahnen AG",
+        "id": "276"
+    },
+    {
+        "agency_name": "Rotenfluebahn Mythenregion AG",
+        "id": "235"
+    },
+    {
+        "agency_name": "Ruftaxi Rorschacherberg",
+        "id": "7008"
+    },
+    {
+        "agency_name": "Réseau Lihsa",
+        "id": "87_LSA"
+    },
+    {
+        "agency_name": "SBB GmbH",
+        "id": "L7____"
+    },
+    {
+        "agency_name": "SBB GmbH (Grenzverkehr)",
+        "id": "351"
+    },
+    {
+        "agency_name": "SBB Infrastruktur AG Bahnersatz",
+        "id": "7231"
+    },
+    {
+        "agency_name": "SIBRA",
+        "id": "87_SIB"
+    },
+    {
+        "agency_name": "STI Bus AG",
+        "id": "146"
+    },
+    {
+        "agency_name": "Saastal Bergbahnen AG",
+        "id": "234"
+    },
+    {
+        "agency_name": "Sattel-Hochstuckli AG",
+        "id": "240"
+    },
+    {
+        "agency_name": "Savognin-Bergbahnen AG",
+        "id": "230"
+    },
+    {
+        "agency_name": "Schiff Eglisau-Tössegg",
+        "id": "3186"
+    },
+    {
+        "agency_name": "Schiffahrtsunternehmung Silsersee",
+        "id": "3183"
+    },
+    {
+        "agency_name": "Schifffahrts-Genossenschaft Greifensee",
+        "id": "180"
+    },
+    {
+        "agency_name": "Schifffahrtsgesellschaft für den Zugersee AG",
+        "id": "186"
+    },
+    {
+        "agency_name": "Schiffsbetrieb Walensee",
+        "id": "197"
+    },
+    {
+        "agency_name": "Schilthornbahn (sbm)",
+        "id": "141"
+    },
+    {
+        "agency_name": "Schutt Atzmännig",
+        "id": "301"
+    },
+    {
+        "agency_name": "Schweiz. Schifffahrtsgesellschaft Untersee und Rhein AG",
+        "id": "193"
+    },
+    {
+        "agency_name": "Schweizerische Bodensee-Schifffahrt AG",
+        "id": "195"
+    },
+    {
+        "agency_name": "Schweizerische Bundesbahnen SBB",
+        "id": "11"
+    },
+    {
+        "agency_name": "Schweizerische Südostbahn (sob)",
+        "id": "82"
+    },
+    {
+        "agency_name": "Schweizerische Südostbahn AG Ersatzverkehr",
+        "id": "7232"
+    },
+    {
+        "agency_name": "Schwägalp-Säntis",
+        "id": "213"
+    },
+    {
+        "agency_name": "Seilbahn Ried Illgau",
+        "id": "347"
+    },
+    {
+        "agency_name": "Seilbahn Weissenstein AG",
+        "id": "202"
+    },
+    {
+        "agency_name": "Seilbahngenossenschaft Embd-Schalb",
+        "id": "3054"
+    },
+    {
+        "agency_name": "Seilbahngenossenschaft Golzern",
+        "id": "3112"
+    },
+    {
+        "agency_name": "Service d'automobiles TMR",
+        "id": "835"
+    },
+    {
+        "agency_name": "Service d'automobiles TPF",
+        "id": "834"
+    },
+    {
+        "agency_name": "Service d'automobiles TRN (rvt Auto)",
+        "id": "796"
+    },
+    {
+        "agency_name": "Service d'automobiles TRN (vr)",
+        "id": "156"
+    },
+    {
+        "agency_name": "Servizio d'automobili",
+        "id": "737"
+    },
+    {
+        "agency_name": "Sesselbahn Feldis-Mutta",
+        "id": "3158"
+    },
+    {
+        "agency_name": "Sesselbahn Krümmenschwil-Rietbach",
+        "id": "3128"
+    },
+    {
+        "agency_name": "Sesselbahn St. Moritz Suvretta-Randolins",
+        "id": "3051"
+    },
+    {
+        "agency_name": "Sesselbahn Vals-Gadenstatt",
+        "id": "3151"
+    },
+    {
+        "agency_name": "Sesselbahn Visperterminen-Giw",
+        "id": "3052"
+    },
+    {
+        "agency_name": "Sierre-Montana-Crans",
+        "id": "142"
+    },
+    {
+        "agency_name": "Sihltal-Zürich-Uetliberg-Bahn",
+        "id": "78"
+    },
+    {
+        "agency_name": "Sihltal-Zürich-Uetliberg-Bahn Ersatzverkehr",
+        "id": "7251"
+    },
+    {
+        "agency_name": "Skilift Schilt AG 8753 Mollis",
+        "id": "7030"
+    },
+    {
+        "agency_name": "Società Funicolare Cassarate-Monte Brè",
+        "id": "116"
+    },
+    {
+        "agency_name": "Società Navigazione del Lago di Lugano SA",
+        "id": "190"
+    },
+    {
+        "agency_name": "Società della Funicolare Locarno-Madonna del Sasso SA",
+        "id": "163"
+    },
+    {
+        "agency_name": "Société Nationale des Chemins de fer Français",
+        "id": "87_LEX"
+    },
+    {
+        "agency_name": "Société coopérative du Chemin de fer - Musée Blonay-Chamby",
+        "id": "371"
+    },
+    {
+        "agency_name": "Solarfährbetrieb Thomas Geiger Reichenau",
+        "id": "3182"
+    },
+    {
+        "agency_name": "Sportbahnen Amden",
+        "id": "3130"
+    },
+    {
+        "agency_name": "Sportbahnen Bellwald Goms AG",
+        "id": "3063"
+    },
+    {
+        "agency_name": "Sportbahnen Davos",
+        "id": "111"
+    },
+    {
+        "agency_name": "Sportbahnen Elm",
+        "id": "3139"
+    },
+    {
+        "agency_name": "Sportbahnen Kerenzerberg GmbH",
+        "id": "3135"
+    },
+    {
+        "agency_name": "Sportbahnen Melchsee-Frutt (ldb)",
+        "id": "3091"
+    },
+    {
+        "agency_name": "Sportbahnen Melchsee-Frutt (lsm)",
+        "id": "222"
+    },
+    {
+        "agency_name": "Sportbahnen Pischa",
+        "id": "224"
+    },
+    {
+        "agency_name": "Sportbahnen Unterbäch AG",
+        "id": "3050"
+    },
+    {
+        "agency_name": "Stadtbus Frauenfeld",
+        "id": "797"
+    },
+    {
+        "agency_name": "Stadtbus Winterthur",
+        "id": "882"
+    },
+    {
+        "agency_name": "Stalden-Gspon",
+        "id": "280"
+    },
+    {
+        "agency_name": "Staldenried-Gspon",
+        "id": "291"
+    },
+    {
+        "agency_name": "Standseilbahn Schwyz-Stoos AG",
+        "id": "112"
+    },
+    {
+        "agency_name": "Stanserhornbahn",
+        "id": "145"
+    },
+    {
+        "agency_name": "Stechelberg-Mürren-Schilthorn (lsms)",
+        "id": "256"
+    },
+    {
+        "agency_name": "Stoosbahnen AG",
+        "id": "3102"
+    },
+    {
+        "agency_name": "Stoosbahnen AG",
+        "id": "319"
+    },
+    {
+        "agency_name": "Städtische Verkehrsbetriebe Bern",
+        "id": "827"
+    },
+    {
+        "agency_name": "Surlej-Silvaplana-Corvatsch",
+        "id": "249"
+    },
+    {
+        "agency_name": "Südbadenbus",
+        "id": "sbg034"
+    },
+    {
+        "agency_name": "THURBO",
+        "id": "65"
+    },
+    {
+        "agency_name": "TMR Ersatzverkehr",
+        "id": "7257"
+    },
+    {
+        "agency_name": "TPF Ersatzverkehr",
+        "id": "7223"
+    },
+    {
+        "agency_name": "TRN Ersatzverkehr",
+        "id": "7255"
+    },
+    {
+        "agency_name": "Taxi, Bau- und Traxarbeiten Willi Schaad",
+        "id": "7070"
+    },
+    {
+        "agency_name": "Theytaz Excursions Sion",
+        "id": "853"
+    },
+    {
+        "agency_name": "Theytaz Excursions Sion",
+        "id": "3032"
+    },
+    {
+        "agency_name": "Toggenburg Bergbahnen Unterwasser",
+        "id": "113"
+    },
+    {
+        "agency_name": "Torrent-Bahnen Leukerbad-Albinen AG",
+        "id": "297"
+    },
+    {
+        "agency_name": "Touristische Unternehmung Grächen AG",
+        "id": "220"
+    },
+    {
+        "agency_name": "Transports Publics Genevois",
+        "id": "881"
+    },
+    {
+        "agency_name": "Transports Publics Neuchâtelois SA",
+        "id": "15300"
+    },
+    {
+        "agency_name": "Transports Publics Neuchâtelois SA (cmn)",
+        "id": "44"
+    },
+    {
+        "agency_name": "Transports Publics Neuchâtelois SA (rvt)",
+        "id": "73"
+    },
+    {
+        "agency_name": "Transports Publics Neuchâtelois SA (tc)",
+        "id": "792"
+    },
+    {
+        "agency_name": "Transports Publics Neuchâtelois SA (tn)",
+        "id": "153"
+    },
+    {
+        "agency_name": "Transports Publics de l'agglomération d'Annemasse",
+        "id": "87_TAC"
+    },
+    {
+        "agency_name": "Transports Publics de la Région Lausannoise sa",
+        "id": "151"
+    },
+    {
+        "agency_name": "Transports Publics de la Région Nyonnaise",
+        "id": "738"
+    },
+    {
+        "agency_name": "Transports Publics du Chablais",
+        "id": "23"
+    },
+    {
+        "agency_name": "Transports Publics du Chablais (Bus)",
+        "id": "818"
+    },
+    {
+        "agency_name": "Transports Vallée de Joux-Yverdon-Ste-Croix",
+        "id": "97"
+    },
+    {
+        "agency_name": "Transports Vallée de Joux-Yverdon-Ste-Croix",
+        "id": "895"
+    },
+    {
+        "agency_name": "Transports Vallée de Joux-Yverdon-Ste-Croix (oc/bus)",
+        "id": "9020"
+    },
+    {
+        "agency_name": "Transports de Martigny et Régions (mc)",
+        "id": "61"
+    },
+    {
+        "agency_name": "Transports de la Région Morges-Bière-Cossonay",
+        "id": "344"
+    },
+    {
+        "agency_name": "Transports de la région Morges-Bière-Cossonay",
+        "id": "29"
+    },
+    {
+        "agency_name": "Transports publics Vevey-Montreux-Chillon-Villeneuve",
+        "id": "876"
+    },
+    {
+        "agency_name": "Transports publics fribourgeois",
+        "id": "53"
+    },
+    {
+        "agency_name": "Transports publics fribourgeois",
+        "id": "3004"
+    },
+    {
+        "agency_name": "Trasporti Pubblici Luganesi SA",
+        "id": "955"
+    },
+    {
+        "agency_name": "Trasporti Pubblici Luganesi SA",
+        "id": "3955"
+    },
+    {
+        "agency_name": "TreNord",
+        "id": "327000"
+    },
+    {
+        "agency_name": "Treib-Seelisberg-Bahn",
+        "id": "154"
+    },
+    {
+        "agency_name": "Trägerverein Historische Postautolinie",
+        "id": "7088"
+    },
+    {
+        "agency_name": "Tschentenbahnen AG",
+        "id": "613"
+    },
+    {
+        "agency_name": "Turtmann-Unterems-Oberems",
+        "id": "290"
+    },
+    {
+        "agency_name": "Télé-Leysin-Col des Mosses - La Lécherette SA",
+        "id": "233"
+    },
+    {
+        "agency_name": "Télé-Thyon SA",
+        "id": "3031"
+    },
+    {
+        "agency_name": "Télé-Torgon SA",
+        "id": "3020"
+    },
+    {
+        "agency_name": "Télé-Villars-Gryon",
+        "id": "3013"
+    },
+    {
+        "agency_name": "TéléCharmey SA",
+        "id": "3258"
+    },
+    {
+        "agency_name": "TéléLaFouly-ChampexLac SA",
+        "id": "3024"
+    },
+    {
+        "agency_name": "TéléMarécottes",
+        "id": "305"
+    },
+    {
+        "agency_name": "Télécabine Vercorin-Crêt-du-Midi",
+        "id": "314"
+    },
+    {
+        "agency_name": "Téléovronnaz SA",
+        "id": "3040"
+    },
+    {
+        "agency_name": "Téléphérique Dorénaz-Champex d'Alesse/Commune de Dorénaz",
+        "id": "277"
+    },
+    {
+        "agency_name": "Télésiège Buttes-La Robella",
+        "id": "3003"
+    },
+    {
+        "agency_name": "Télésiège Lana-La Meina",
+        "id": "3033"
+    },
+    {
+        "agency_name": "Téléverbier",
+        "id": "311"
+    },
+    {
+        "agency_name": "Val Sporz-Piz Scalottas",
+        "id": "3026"
+    },
+    {
+        "agency_name": "Valbianca SA Airolo",
+        "id": "316"
+    },
+    {
+        "agency_name": "Verdasio-Rasa",
+        "id": "279"
+    },
+    {
+        "agency_name": "Verein Dampfbahn Bern",
+        "id": "9014"
+    },
+    {
+        "agency_name": "Verein Naturpark Beverin",
+        "id": "7081"
+    },
+    {
+        "agency_name": "Verkehrsbetrieb LIECHTENSTEINmobil",
+        "id": "805"
+    },
+    {
+        "agency_name": "Verkehrsbetrieb der Landschaft Davos",
+        "id": "740"
+    },
+    {
+        "agency_name": "Verkehrsbetriebe Biel",
+        "id": "889"
+    },
+    {
+        "agency_name": "Verkehrsbetriebe Biel",
+        "id": "101"
+    },
+    {
+        "agency_name": "Verkehrsbetriebe Biel",
+        "id": "103"
+    },
+    {
+        "agency_name": "Verkehrsbetriebe Glattal",
+        "id": "773"
+    },
+    {
+        "agency_name": "Verkehrsbetriebe Herisau",
+        "id": "799"
+    },
+    {
+        "agency_name": "Verkehrsbetriebe Kreuzlingen",
+        "id": "727"
+    },
+    {
+        "agency_name": "Verkehrsbetriebe Luzern AG",
+        "id": "820"
+    },
+    {
+        "agency_name": "Verkehrsbetriebe Schaffhausen",
+        "id": "846"
+    },
+    {
+        "agency_name": "Verkehrsbetriebe Schaffhausen",
+        "id": "836"
+    },
+    {
+        "agency_name": "Verkehrsbetriebe Zürich",
+        "id": "849"
+    },
+    {
+        "agency_name": "Verkehrsbetriebe Zürich INFO+",
+        "id": "3849"
+    },
+    {
+        "agency_name": "Verkehrsbetriebe Zürichsee und Oberland",
+        "id": "838"
+    },
+    {
+        "agency_name": "Verkehrsbetriebe der Stadt St.Gallen",
+        "id": "885"
+    },
+    {
+        "agency_name": "Verkehrsverbund Tirol GesmbH",
+        "id": "748"
+    },
+    {
+        "agency_name": "Vierwaldstättersee",
+        "id": "185"
+    },
+    {
+        "agency_name": "Vischnaunca Sumvitg",
+        "id": "7047"
+    },
+    {
+        "agency_name": "Walker's Söhne Urnerboden",
+        "id": "7027"
+    },
+    {
+        "agency_name": "Wasserauen-Ebenalp",
+        "id": "215"
+    },
+    {
+        "agency_name": "Wasserngrat 2000 AG",
+        "id": "3191"
+    },
+    {
+        "agency_name": "Weggis-Rigi Kaltbad",
+        "id": "13700"
+    },
+    {
+        "agency_name": "Weisse Arena Bergbahnen AG",
+        "id": "275"
+    },
+    {
+        "agency_name": "Wengen-Männlichen",
+        "id": "216"
+    },
+    {
+        "agency_name": "Wengernalpbahn",
+        "id": "157"
+    },
+    {
+        "agency_name": "Wengernalpbahn Grindelwald Grund - Eigergletscher",
+        "id": "200"
+    },
+    {
+        "agency_name": "ZB Bus Fahrplanbedürfnisse",
+        "id": "7050"
+    },
+    {
+        "agency_name": "Zentralbahn",
+        "id": "86"
+    },
+    {
+        "agency_name": "Zermatt Bergbahnen AG",
+        "id": "299"
+    },
+    {
+        "agency_name": "Zugerbergbahn",
+        "id": "158"
+    },
+    {
+        "agency_name": "Zugerland Verkehrsbetriebe",
+        "id": "839"
+    },
+    {
+        "agency_name": "Zürichsee-Fähre Horgen-Meilen AG",
+        "id": "196"
+    },
+    {
+        "agency_name": "Zürichsee-Schifffahrtsgesellschaft AG (ZSG)",
+        "id": "194"
+    },
+    {
+        "agency_name": "ebs Energie AG",
+        "id": "3162"
+    },
+    {
+        "agency_name": "zb Zentralbahn AG Ersatzverkehr",
+        "id": "7234"
+    },
+    {
+        "agency_name": "Ägerisee Schifffahrt AG",
+        "id": "179"
+    },
+    {
+        "agency_name": "Österreichische Bundesbahnen",
+        "id": "81____"
+    }
+]
