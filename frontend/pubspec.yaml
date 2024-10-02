@@ -6,20 +6,75 @@ publish_to: 'none'
 
 version: 1.0.0+1
 
+
 environment:
-  sdk: '>=3.0.2 <4.0.0'
+  sdk: '>=3.5.1 <4.0.0'
+
 
 dependencies:
   flutter:
     sdk: flutter
   flutter_localizations:
     sdk: flutter
+  
+  # https://pub.dev/packages/animations
+  animations: ^2.0.11
+  # https://pub.dev/packages/app_settings
+  app_settings: ^5.1.1
+  # https://pub.dev/packages/auto_route
+  auto_route: ^9.2.2
+  # https://pub.dev/packages/cached_network_image
+  cached_network_image: ^3.4.0
+  # https://pub.dev/packages/collection
+  collection: ^1.18.0
+  # https://pub.dev/packages/external_app_launcher
+  external_app_launcher: ^4.0.0
+  # https://pub.dev/packages/flutter_svg
+  flutter_svg: ^2.0.10+1
+  # https://pub.dev/packages/get_it
+  get_it: ^7.7.0
+  # https://pub.dev/packages/image_picker
+  image_picker: ^1.1.2
+  # https://pub.dev/packages/intl
+  intl: ^0.19.0
+  # https://pub.dev/packages/logging
+  logging: ^1.2.0
+  # https://pub.dev/packages/lottie
+  lottie: ^3.1.2
+  # https://pub.dev/packages/meta
+  meta: ^1.12.0
+  # https://pub.dev/packages/package_info_plus
+  package_info_plus: ^8.0.2
+  # https://pub.dev/packages/path
+  path: ^1.9.0
+  # https://pub.dev/packages/path_provider
+  path_provider: ^2.1.4
+  # https://pub.dev/packages/permission_handler
+  permission_handler: ^11.3.1
+  # https://pub.dev/packages/photo_view
+  photo_view: ^0.15.0
+  # https://pub.dev/packages/provider
+  provider: ^6.1.2
+  # https://pub.dev/packages/rxdart
+  rxdart: ^0.28.0
+  # https://pub.dev/packages/sliver_tools
+  sliver_tools: ^0.2.12
+  # https://pub.dev/packages/url_launcher
+  url_launcher: ^6.3.0
+  # https://pub.dev/packages/uuid
+  uuid: ^4.5.0
+  logger: ^2.4.0
+  flutter_staggered_grid_view: 0.7.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
-  flutter_lints: ^2.0.0
+  # https://pub.dev/packages/auto_route_generator
+  auto_route_generator: ^9.0.0
+  # https://pub.dev/packages/build_runner
+  build_runner: ^2.4.11
+  # https://pub.dev/packages/flutter_lints
+  flutter_lints: ^4.0.0
 
 flutter:
   uses-material-design: true
@@ -30,3 +85,10 @@ flutter:
   assets:
     # Add assets from the images directory to the application.
     - assets/images/
+    - assets/data/agencies.json
+
+  fonts:
+    - family: Calanda
+      fonts:
+        - asset: fonts/calanda_bold.ttf
+          weight: 700
