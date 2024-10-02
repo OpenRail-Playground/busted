@@ -1,9 +1,11 @@
-from db import get_db
+from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime, timedelta
 
 PREVIOUS = "previous_"
 CURRENT = "current_"
 TRANSFER_TIME = 29
+
+db = SQLAlchemy()
 
 class Data():
     
@@ -11,20 +13,17 @@ class Data():
         pass
 
     def stations(self, table_prefix=CURRENT):
-        db = get_db()
         query = f'SELECT * FROM {table_prefix}stops'
-        stations = db.execute(query).fetchall()
+        stations = db.session.execute(query).fetchall()
         return stations
     
     def agencies(self, table_prefix=CURRENT):
-        db = get_db()
         query = f'SELECT agency_id as id, agency_name FROM {table_prefix}agency ORDER BY agency_name ASC'
-        agencies = db.execute(query).fetchall()
+        agencies = db.session.execute(query).fetchall()
         agencies_list = [dict(row) for row in agencies]
         return agencies_list
     
     def get_transfers_for_stop(self, stop_id, table_prefix=CURRENT):
-        db = get_db()
         
         # Use LIKE to match stop_id with potential suffixes
         stop_id_like = f"{stop_id}%"
@@ -38,7 +37,7 @@ class Data():
         WHERE from_stop_id LIKE ?
         '''
         
-        results = db.execute(query, (stop_id_like,)).fetchall()
+        results = db.session.execute(query, (stop_id_like,)).fetchall()
                 
         # Clean and consolidate results in Python
         transfers = {}
@@ -66,7 +65,6 @@ class Data():
     
     # the actual function, but it's too slow for demo and needs optimizations
     def get_stop_times(self, stop_id, date, start_time, end_time, time_column, table_prefix=CURRENT):
-        db = get_db()
         weekday_column = self.get_day_of_week_column(date)
         query = f'''
         SELECT 
@@ -90,13 +88,11 @@ class Data():
         AND (pcd.exception_type IS NULL OR pcd.exception_type = 1)
         ORDER BY st.{time_column}
         '''
-        results = db.execute(query, (date, stop_id, start_time, end_time, date, date)).fetchall()
+        results = db.session.execute(query, (date, stop_id, start_time, end_time, date, date)).fetchall()
         return [dict(row) for row in results]
     
     # a mocked version of the function, that trivialises by filtering by short_name
-    def mocked_get_stop_times(self, stop_id, date, start_time, end_time, time_column, table_prefix=CURRENT):
-        db = get_db()
-        
+    def mocked_get_stop_times(self, stop_id, date, start_time, end_time, time_column, table_prefix=CURRENT):       
         query = f'''
         SELECT 
             st.trip_id as trip_id, 
@@ -114,7 +110,7 @@ class Data():
         ORDER BY st.{time_column}
         '''
         
-        results = db.execute(query, (stop_id, start_time, end_time)).fetchall()
+        results = db.session.execute(query, (stop_id, start_time, end_time)).fetchall()
         
         # Konvertieren Sie die Ergebnisse in eine Liste von Dictionaries
         result_dicts = [dict(row) for row in results]
