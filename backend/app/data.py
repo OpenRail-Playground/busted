@@ -1,10 +1,6 @@
-from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime, timedelta
-from sqlalchemy import text
 from app import db
-from app.models import CurrentAgency, PreviousAgency, CurrentRoutes, PreviousRoutes, CurrentStops, PreviousStops, CurrentTrips, PreviousTrips, CurrentStopTimes, PreviousStopTimes, CurrentCalendar, PreviousCalendar, CurrentCalendarDates, PreviousCalendarDates, CurrentTransfers, PreviousTransfers
-
-#db = SQLAlchemy()
+from app.models import CurrentTrips, PreviousTrips, CurrentStopTimes, PreviousStopTimes, CurrentCalendar, PreviousCalendar, CurrentCalendarDates, PreviousCalendarDates, CurrentTransfers, PreviousTransfers
 
 PREVIOUS = "previous_"
 CURRENT = "current_"

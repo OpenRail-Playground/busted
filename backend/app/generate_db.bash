@@ -1,5 +1,11 @@
 #!/bin/bash
 
+####################################################
+## This can be used to create DB for viewing data ##
+## It will not work with flask as all constraints ##
+## are missing.                                   ##
+####################################################
+
 # Database file
 mkdir -p instance
 DB_FILE="instance/busted.db"
