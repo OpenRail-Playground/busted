@@ -2,8 +2,7 @@
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy.ext.declarative import declared_attr
 from sqlalchemy.orm import foreign
-
-db = SQLAlchemy()
+from app import db
 
 class BaseAgency(db.Model):
     __abstract__ = True  # This makes sure BaseModel is not created as a table

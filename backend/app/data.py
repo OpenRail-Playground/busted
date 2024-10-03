@@ -1,9 +1,10 @@
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime, timedelta
 from sqlalchemy import text
-#from app import db
+from app import db
+from app.models import CurrentAgency, PreviousAgency, CurrentRoutes, PreviousRoutes, CurrentStops, PreviousStops, CurrentTrips, PreviousTrips, CurrentStopTimes, PreviousStopTimes, CurrentCalendar, PreviousCalendar, CurrentCalendarDates, PreviousCalendarDates, CurrentTransfers, PreviousTransfers
 
-db = SQLAlchemy()
+#db = SQLAlchemy()
 
 PREVIOUS = "previous_"
 CURRENT = "current_"
@@ -28,26 +29,34 @@ class Data():
     def get_transfers_for_stop(self, stop_id, table_prefix=CURRENT):
         # Use LIKE to match stop_id with potential suffixes
         stop_id_like = f"{stop_id}%"
-        
-        query = text(f'''
-        SELECT 
-            from_stop_id AS original_stop_id,
-            to_stop_id AS transfer_stop_id,
-            min_transfer_time
-        FROM {table_prefix}transfers
-        WHERE from_stop_id LIKE ?
-        ''')
-        
-        results = db.session.execute(query, (stop_id_like,)).fetchall()
+        TransferModel = CurrentTransfers if table_prefix == CURRENT else PreviousTransfers
+        results = db.session.query(
+            TransferModel.from_stop_id,
+            TransferModel.to_stop_id,
+            TransferModel.min_transfer_time
+        ).filter(TransferModel.from_stop_id.like(stop_id_like)).all()
+        #query = text(f'''
+        #SELECT 
+        #    from_stop_id AS original_stop_id,
+        #    to_stop_id AS transfer_stop_id,
+        #    min_transfer_time
+        #FROM {table_prefix}transfers
+        #WHERE from_stop_id LIKE ?
+        #''')
+        #results = db.session.execute(query, [{'stop_id_like': stop_id_like}]).fetchall()
+        # results = db.session.execute(query, (stop_id_like,)).fetchall()
                 
         # Clean and consolidate results in Python
         transfers = {}
         for row in results:
-            connected_stop_id = row['transfer_stop_id']
-            min_transfer_time = row['min_transfer_time']
+            #connected_stop_id = row['transfer_stop_id']
+            #min_transfer_time = row['min_transfer_time']
             
-            # Extract the base stop_id (before any suffix)
+            connected_stop_id = row[1]
             base_stop_id = connected_stop_id.split(':')[0]
+            min_transfer_time = row[2]
+            # Extract the base stop_id (before any suffix)
+            #base_stop_id = connected_stop_id.split(':')[0]
             
             # Update the dictionary with the maximum transfer time for each base stop_id
             if base_stop_id not in transfers or min_transfer_time > transfers[base_stop_id]:
@@ -67,51 +76,93 @@ class Data():
     # the actual function, but it's too slow for demo and needs optimizations
     def get_stop_times(self, stop_id, date, start_time, end_time, time_column, table_prefix=CURRENT):
         weekday_column = self.get_day_of_week_column(date)
-        query = text(f'''
-        SELECT 
-            st.trip_id as trip_id, 
-            st.arrival_time as arrival_time, 
-            st.departure_time as departure_time, 
-            t.route_id,
-            t.service_id,
-            t.trip_headsign as headsign,
-            t.trip_short_name as short_name,
-            t.direction_id as direction
-        FROM {table_prefix}stop_times st
-        JOIN {table_prefix}trips t ON st.trip_id = t.trip_id
-        JOIN {table_prefix}calendar c ON t.service_id = c.service_id
-        LEFT JOIN {table_prefix}calendar_dates pcd ON t.service_id = pcd.service_id AND pcd.date = ?
-        WHERE st.stop_id_prefix = ?
-        AND st.{time_column} BETWEEN ? AND ?
-        AND c.{weekday_column} = 1
-        AND c.start_date <= ?
-        AND c.end_date >= ?
-        AND (pcd.exception_type IS NULL OR pcd.exception_type = 1)
-        ORDER BY st.{time_column}
-        ''')
-        results = db.session.execute(query, (date, stop_id, start_time, end_time, date, date)).fetchall()
+        StopTimesModel = CurrentStopTimes if table_prefix == CURRENT else PreviousStopTimes
+        TripsModel = CurrentTrips if table_prefix == CURRENT else PreviousTrips
+        CalendarModel = CurrentCalendar if table_prefix == CURRENT else PreviousCalendar
+        CalendarDatesModel = CurrentCalendarDates if table_prefix == CURRENT else PreviousCalendarDates
+        results = db.session.query(
+                StopTimesModel.trip_id,
+                StopTimesModel.arrival_time,
+                StopTimesModel.departure_time,
+                TripsModel.route_id,
+                TripsModel.service_id,
+                TripsModel.trip_headsign,
+                TripsModel.trip_short_name,
+                TripsModel.direction_id
+            ).join(TripsModel, StopTimesModel.trip_id == TripsModel.trip_id)\
+            .join(CalendarModel, TripsModel.service_id == CalendarModel.service_id)\
+            .outerjoin(CalendarDatesModel, (TripsModel.service_id == CalendarDatesModel.service_id) & (CalendarDatesModel.date == date))\
+            .filter(StopTimesModel.stop_id_prefix == stop_id)\
+            .filter(getattr(StopTimesModel, time_column).between(start_time, end_time))\
+            .filter(getattr(CalendarModel, weekday_column) == 1)\
+            .filter(CalendarModel.start_date <= date)\
+            .filter(CalendarModel.end_date >= date)\
+            .filter((CalendarDatesModel.exception_type == None) | (CalendarDatesModel.exception_type == 1))\
+            .order_by(getattr(StopTimesModel, time_column))\
+            .all()
+        # Old raw SQL
+        #query = text(f'''
+        # SELECT 
+        #     st.trip_id as trip_id, 
+        #     st.arrival_time as arrival_time, 
+        #     st.departure_time as departure_time, 
+        #     t.route_id,
+        #     t.service_id,
+        #     t.trip_headsign as headsign,
+        #     t.trip_short_name as short_name,
+        #     t.direction_id as direction
+        # FROM {table_prefix}stop_times st
+        # JOIN {table_prefix}trips t ON st.trip_id = t.trip_id
+        # JOIN {table_prefix}calendar c ON t.service_id = c.service_id
+        # LEFT JOIN {table_prefix}calendar_dates pcd ON t.service_id = pcd.service_id AND pcd.date = ?
+        # WHERE st.stop_id_prefix = ?
+        # AND st.{time_column} BETWEEN ? AND ?
+        # AND c.{weekday_column} = 1
+        # AND c.start_date <= ?
+        # AND c.end_date >= ?
+        # AND (pcd.exception_type IS NULL OR pcd.exception_type = 1)
+        # ORDER BY st.{time_column}
+        # ''')
+        #results = db.session.execute(query, [{'date': date, 'stop_id': stop_id, 'start_time': start_time, 'end_time': end_time}]).fetchall()
         return [dict(row) for row in results]
     
     # a mocked version of the function, that trivialises by filtering by short_name
-    def mocked_get_stop_times(self, stop_id, date, start_time, end_time, time_column, table_prefix=CURRENT):       
-        query = text(f'''
-        SELECT 
-            st.trip_id as trip_id, 
-            st.arrival_time as arrival_time, 
-            st.departure_time as departure_time, 
-            t.route_id,
-            t.service_id,
-            t.trip_headsign as headsign,
-            t.trip_short_name as short_name,
-            t.direction_id as direction
-        FROM {table_prefix}stop_times st
-        JOIN {table_prefix}trips t ON st.trip_id = t.trip_id
-        WHERE st.stop_id_prefix = ?
-        AND st.{time_column} BETWEEN ? AND ?
-        ORDER BY st.{time_column}
-        ''')
+    def mocked_get_stop_times(self, stop_id, date, start_time, end_time, time_column, table_prefix=CURRENT):
+        StopTimesModel = CurrentStopTimes if table_prefix == CURRENT else PreviousStopTimes
+        TripsModel = CurrentTrips if table_prefix == CURRENT else PreviousTrips
+        results = db.session.query(
+            StopTimesModel.trip_id,
+            StopTimesModel.arrival_time,
+            StopTimesModel.departure_time,
+            TripsModel.route_id,
+            TripsModel.service_id,
+            TripsModel.trip_headsign,
+            TripsModel.trip_short_name,
+            TripsModel.direction_id
+        ).filter(StopTimesModel.stop_id_prefix == stop_id)\
+        .filter(getattr(StopTimesModel, time_column).between(start_time, end_time))\
+        .order_by(getattr(StopTimesModel, time_column))\
+        .all()
+        # Old raw SQL statement
+        # query = text(f'''
+        # SELECT 
+        #     st.trip_id as trip_id, 
+        #     st.arrival_time as arrival_time, 
+        #     st.departure_time as departure_time, 
+        #     t.route_id,
+        #     t.service_id,
+        #     t.trip_headsign as headsign,
+        #     t.trip_short_name as short_name,
+        #     t.direction_id as direction
+        # FROM {table_prefix}stop_times st
+        # JOIN {table_prefix}trips t ON st.trip_id = t.trip_id
+        # WHERE st.stop_id_prefix = ?
+        # AND st.{time_column} BETWEEN ? AND ?
+        # ORDER BY st.{time_column}
+        # ''')
         
-        results = db.session.execute(query, (stop_id, start_time, end_time)).fetchall()
+        #results = db.session.execute(query, [{'stop_id': stop_id, 'start_time': start_time, 'end_time': end_time}]).fetchall()
+        #results = db.session.execute(query, (stop_id, start_time, end_time)).fetchall()
         
         # Konvertieren Sie die Ergebnisse in eine Liste von Dictionaries
         result_dicts = [dict(row) for row in results]

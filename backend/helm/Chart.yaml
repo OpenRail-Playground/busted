@@ -1,6 +1,0 @@
-apiVersion: v2
-appVersion: 0.0.1
-description: A Helm chart for deploying a Flask application
-name: busted
-# The effective version will be computed during Helm generation
-version: 0.0.1-SNAPSHOT

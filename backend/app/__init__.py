@@ -7,6 +7,7 @@ db = SQLAlchemy()
 
 def create_app(test_config=None):
     app = Flask(__name__, instance_relative_config=True)
+   
     if test_config is None:
         app.config.from_object('config.Config')
         #app.config.from_pyfile('config.py', silent=True)
@@ -19,7 +20,6 @@ def create_app(test_config=None):
         #logging.FileHandler("app.log"),
         logging.StreamHandler()
     ])
-
     # ensure the instance folder exists
     try:
         os.makedirs(app.instance_path)

@@ -4,3 +4,4 @@ app/__pycache__
 instance/
 resources/data/current/
 resources/data/previous/
+.vscode/
