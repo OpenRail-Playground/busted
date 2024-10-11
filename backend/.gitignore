@@ -1,2 +1,7 @@
-src/__pycache__
-src/instance
+__pycache__
+app.log
+app/__pycache__
+instance/
+resources/data/current/
+resources/data/previous/
+.vscode/
